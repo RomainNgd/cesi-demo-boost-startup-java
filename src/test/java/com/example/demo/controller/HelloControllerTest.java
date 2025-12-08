@@ -26,6 +26,6 @@ class HelloControllerTest {
                 .returnResult()
                 .getResponseBody();
 
-        assertEquals("MANZAT --> Hello from Spring Boot 4 with Java 25!", response);
+        assertEquals("ROMAIN (PHP GOD) est beaucoup trop fort pour vous !", response);
     }
 }
