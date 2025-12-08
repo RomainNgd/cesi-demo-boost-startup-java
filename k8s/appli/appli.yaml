@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: cesi8
   labels:
-    kubernetes.io/metadata.name: cesi1
+    kubernetes.io/metadata.name: cesi8
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: cesi8-demo-java
-          image: emanzat/ema-demo-java:c58d8177acfad8c20e751bd0944ef875d18fad20
+          image: romain2311/cesi8-demo-boost-startup:latest
           ports:
             - containerPort: 8080
               name: http
