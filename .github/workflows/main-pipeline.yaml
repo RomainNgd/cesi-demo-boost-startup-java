@@ -25,7 +25,7 @@ jobs:
     steps:
       - name: 📋 Pipeline en construction
         run: |
-          echo "Test de pipeline par romain
+          echo "Test de pipeline par romain"
           echo "🚧 Pipeline CI/CD en cours de construction..."
           echo "Les workflows seront ajoutés progressivement dans les exercices suivants."
           echo ""
