@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        return "ROMAIN (PHP GOD) est beaucoup trop fort pour vous !";
+        return "ROMAIN est beaucoup trop fort pour vous ! Vive le PHP";
     }
 
 }

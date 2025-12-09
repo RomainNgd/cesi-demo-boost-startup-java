@@ -26,6 +26,6 @@ class HelloControllerTest {
                 .returnResult()
                 .getResponseBody();
 
-        assertEquals("ROMAIN (PHP GOD) est beaucoup trop fort pour vous !", response);
+        assertEquals("ROMAIN est beaucoup trop fort pour vous ! Vive le PHP", response);
     }
 }
