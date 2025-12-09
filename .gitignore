@@ -33,3 +33,4 @@ build/
 .vscode/
 
 config/
+k8s/appli/appli-test.yaml
