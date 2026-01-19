@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: cesi8-demo-java
-          image: romain2311/cesi8-demo-boost-startup:d3f3ced90f4e354c84aa4295964dc14a22a9cca7
+          image: romain2311/cesi8-demo-boost-startup:0e957bf418472285fcf70f41d6e7e8f5c090695f
           ports:
             - containerPort: 8080
               name: http
